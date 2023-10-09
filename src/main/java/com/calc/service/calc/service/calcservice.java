@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class calcservice {
 
-    @GetMapping("/add/{x}/{y}")
-    public Response add(@PathVariable int x, @PathVariable int y){
-        return new Response(x,y,x+y);
+    @GetMapping("/add/{xpy}/{y}")
+    public Response add(@PathVariable int xpy, @PathVariable int y){
+        return new Response(xpy,y,xpy+y);
     }
 }
