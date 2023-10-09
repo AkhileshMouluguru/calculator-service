@@ -1,18 +1,18 @@
 package com.calc.service.calc.service;
 
 public class Response {
-    private int xpy;
+    private int x;
     private int y;
     private int result;
 
     public Response(int x, int y, int result) {
-        this.xpy = x;
+        this.x = x;
         this.y = y;
         this.result = result;
     }
 
     public int getX() {
-        return xpy;
+        return x;
     }
 
     public int getY() {
